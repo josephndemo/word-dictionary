@@ -1,15 +1,15 @@
-/* IBM Carbon base feel */
+
 * {
   box-sizing: border-box;
   font-family: 'IBM Plex Sans', Arial, sans-serif;
 }
 
 body {
-  background-color: #d3ecf5; /* Carbon Gray 10 */
+  background-color: #d3ecf5;
   display: flex;
   justify-content: center;
   padding: 2rem;
-  color: #161616; /* Carbon Gray 100 */
+  color: #161616;
 }
 
 /* Main container */
@@ -18,7 +18,7 @@ body {
   padding: 2rem;
   max-width: 720px;
   width: 100%;
-  border-radius: 0; /* Carbon uses sharp edges */
+  border-radius: 0; 
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.18);
 }
 
@@ -43,20 +43,20 @@ input {
   flex: 1;
   padding: 0.75rem 1rem;
   font-size: 1rem;
-  border: 1px solid #8d8d8d; /* Carbon Gray 50 */
+  border: 1px solid #8d8d8d; 
   background-color: #ffffff;
 }
 
 input:focus {
   outline: none;
-  border-color: #0f62fe; /* IBM Blue 60 */
+  border-color: #0f62fe; 
   box-shadow: inset 0 0 0 1px #0f62fe;
 }
 
 /* Button */
 button {
   padding: 0.75rem 1.25rem;
-  background-color: #0f62fe; /* IBM Blue 60 */
+  background-color: #0f62fe; 
   border: none;
   color: #ffffff;
   cursor: pointer;
@@ -65,7 +65,7 @@ button {
 }
 
 button:hover {
-  background-color: #0353e9; /* IBM Blue 70 */
+  background-color: #0353e9; 
 }
 
 /* Meaning card */
@@ -73,14 +73,14 @@ button:hover {
   margin-top: 1.5rem;
   padding: 1rem 1.25rem;
   border-left: 4px solid #0f62fe;
-  background-color: #f4f4f4; /* Carbon Gray 10 */
+  background-color: #f4f4f4; 
 }
 
 /* Part of speech */
 .part-of-speech {
   font-weight: 600;
   text-transform: capitalize;
-  color: #393939; /* Carbon Gray 80 */
+  color: #393939; 
   margin-bottom: 0.5rem;
 }
 
@@ -93,6 +93,7 @@ button:hover {
 /* Example text */
 .example {
   font-style: italic;
-  color: #525252; /* Carbon Gray 70 */
+  color: #525252; 
   margin-top: 0.25rem;
 }
+
