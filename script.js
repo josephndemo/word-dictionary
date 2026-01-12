@@ -66,7 +66,7 @@ function displayResults(data) {
   });
 }
 
-// Function to play audio
+// function to play audio
 function playAudio(src) {
   const audio = new Audio(src);
   audio.play();
